@@ -9,6 +9,7 @@ import Root from './Components/Root/Root';
 import ErrorPage from './Components/ErrorPage/ErrorPage';
 import Home from './Components/Home/Home';
 import OurTeam from './Components/OurTeam/OurTeam';
+import ContractUs from './Components/ContractUs/ContractUs';
 
 const router = createBrowserRouter([
   {
@@ -23,6 +24,10 @@ const router = createBrowserRouter([
       {
         path:"/ourteam",
         element:<OurTeam></OurTeam>
+      },
+      {
+        path:"/contuctus",
+        element:<ContractUs></ContractUs>
       }
     ]
   },
